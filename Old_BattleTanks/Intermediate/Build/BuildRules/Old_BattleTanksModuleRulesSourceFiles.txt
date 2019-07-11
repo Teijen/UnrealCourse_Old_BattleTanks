@@ -1,0 +1,3 @@
+/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Source/Old_BattleTanks/Old_BattleTanks.Build.cs
+/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Source/Old_BattleTanks.Target.cs
+/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Source/Old_BattleTanksEditor.Target.cs

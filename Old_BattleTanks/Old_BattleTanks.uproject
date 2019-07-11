@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{000443D6-08D6-FA68-AA00-C3A4FFF6EF15}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Old_BattleTanks",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

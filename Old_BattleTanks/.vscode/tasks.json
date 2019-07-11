@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Old_BattleTanks Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Mac",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"IOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"Linux",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanks TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanks TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Old_BattleTanksEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		},
+		{
+			"label": "Old_BattleTanksEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Old_BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+			}
+		}
+	]
+}

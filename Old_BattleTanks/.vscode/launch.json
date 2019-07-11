@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Old_BattleTanks (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanks Linux Debug Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Binaries/Linux/Old_BattleTanks-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanks (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanks Linux DebugGame Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Binaries/Linux/Old_BattleTanks-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanks (Development)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanks Linux Development Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Binaries/Linux/Old_BattleTanks",
+			"args": [
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanks (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanks Linux Shipping Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Binaries/Linux/Old_BattleTanks-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanks (Test)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanks Linux Test Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Binaries/Linux/Old_BattleTanks-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanksEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanksEditor Linux Debug Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject"
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanksEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanksEditor Linux DebugGame Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject"
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Old_BattleTanksEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Old_BattleTanksEditor Linux Development Build",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject"
+			],
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/lcannan/Summer2019Projects/UnReal/Projects/UnrealCourse_Old_BattleTanks/Old_BattleTanks/Old_BattleTanks.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/lcannan/Summer2019Projects/UnReal/UnrealEngine"
+		}
+	]
+}
